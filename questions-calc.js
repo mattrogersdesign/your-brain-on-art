@@ -243,7 +243,7 @@ function Calculate_overall_score() {
 
 // Describe this function...
 function calculate_cumulative_score() {
-  cumulative = totalscore / 16;
+  cumulative = totalscore / 14;
   $('[bloc=cumulative]').text((Math.round(cumulative*100))/100);
   appreciation = appreciation_tot / 8;
   $('[bloc=appreciation]').text((Math.round(appreciation*100))/100);
