@@ -247,7 +247,7 @@ function calculate_cumulative_score() {
   $('[bloc=cumulative]').text((Math.round(cumulative*100))/100);
   appreciation = appreciation_tot / 8;
   $('[bloc=appreciation]').text((Math.round(appreciation*100))/100);
-  experience = experience_tot / 5;
+  experience = experience_tot / 3;
   $('[bloc=experience]').text((Math.round(experience*100))/100);
   behavior = behavior_tot / 4;
   $('[bloc=behavior]').text((Math.round(behavior*100))/100);
